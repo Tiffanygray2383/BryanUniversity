@@ -1,0 +1,64 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(61, 88, 70);
+    background-image:;}
+
+header{
+    background-color: tomato;
+    height: 110px;
+    color: darkslateblue;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: large;
+}
+a{
+    color: blue;
+}
+img{
+    margin: 500px center;
+    display: block;
+}
+#left-nav{
+    float: left;
+    margin: 80px;
+    color: black;
+}
+#right-nav{
+    float: right;
+    margin: 15px;
+    color: whitesmoke;
+}
+table{
+    width: 200px;
+    /border-spacing: 20px;/
+}
+th{
+    text-align: center;
+}
+table, th, td{
+    border: 3px solid #322a2a;
+    border-collapse: collapse;
+}
+
+
+footer{
+    clear: both;
+    text-align: center;
+    background: #322a2a;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: darkblue;
+    color: ghostwhite;
+}
+
+@media (min-width: 768px){
+    .container {
+      background-color: white;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto;
+      grid-gap: 10px
+
+    }
+

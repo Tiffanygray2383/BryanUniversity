@@ -1,0 +1,82 @@
+
+
+
+
+nav {
+    position : center;
+    color: cornsilk;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-stretch: extra-expanded;
+
+    }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:seagreen;
+    background-image:https://images.unsplash.com/photo-1584126467127-4fee1e5a1e2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80;}
+
+header{
+    background-color: deepskyblue;
+    height: 110px;
+    color: darkslateblue;
+}
+a{
+    color: cornsilk;
+}
+img{
+    margin: 1px auto;
+    display: block;
+}
+#left-nav{
+    float: left;
+    margin: 80px;
+    color: black;
+}
+#right-nav{
+    float: right;
+    margin: 15px;
+    color: black;
+}
+table{
+    width: 200px;
+    /border-spacing: 20px;/
+}
+th{
+    text-align: center;
+}
+table, th, td{
+    border: 3px solid #322a2a;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 15px;
+}
+tr:nth-child(even){
+    background-color: white
+}
+tr:nth-child(odd){
+    background-color:cornsilk
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background: #322a2a;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: darkblue;
+    color: ghostwhite;
+}
+
+@media (min-width: 768px){
+    .container {
+      background-color: white;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto;
+      grid-gap: 10px
+
+    }
