@@ -1,79 +1,111 @@
  
 /* If 5 is greater than 3: Greater than 3!
 If the length is 3: "Cat"
-If cat is equal to dog: ""not the same"
+If cat is equal to dog: ""not the same"*/
 
 
-function isGreaterThan5() 
-if (number >=5 && number <3)  
-    console.log ("5 is greater than 3");
-else if (number <=5 && number ===3)
-console.log ("Cat");
-else if (number <=5 && number >3) {
-console.log ("not the same");
+if (5 > 3)
+{
+    console.log('is greater than')
+}
+else{
+    console.log('not great than')
 }
 
+/*there are two separate ways to complete this object. This is the second way. Thank you professor.*/
 
+var myVar1 = 5;
+var myVar2 = 3;
+
+if (myVar1 > myVar2){
+    console.log("is greater than");
+}
+else{
+    console.log("is Not greater than");
+}
+
+var myCat = 'cat'
+
+if (myCat.length == 3){
+
+console.log('is of the same length')
+}
+
+else {
+    console.log('is not the same length')
+}
+
+var dog = "dog"
+var cat = "cat"
+
+if (dog == cat) {
+    console.log('is the same')
+}
+else{
+    console.log('not the same')
+}
+
+ 
 /*If age is under 18: "Not allowed to watch movie"
 If name starts with "B": "Allowed to watch movie"
 If name starts with "B" and older than 18: "Allowed into the movie"*/
 
-function person(name, age) {
-    this.name = name;
-    this.age = age;
-    return this.age.()
+var myAge = 12;
+var myName = 'B';
+
+if(myAge < 18) {
+    console.log ('Not allowed to watch movie')
 }
-const person1 = ('Bobby', '18');
-const person1 = ('Mary', '12');
-const person3 = ('Sam', '25');
-console.log (person1.get)
-
-
-/*const age = 12
-if (age < 18)
-console.log('Not allowed to watch movie')*/
- 
-const name = Bobby
-if (name == B)
-console.log('Allowed to watch the movie')
-
-
-/*if (age >=5 && number <3) {
-    console.log ("5 is greater than 3");}
-else if (age <=18 && number ===3)
-console.log ("Cat");
-else if (number <=5 && number >3) {
-console.log ("not the same");
-}
-document.body.innerHTML = '<h1>Week 2 If statement olympics/h1>'
-
-
-/*I originally started with the code below but figured it was incorrect.
-var person = {
-  name: "Bobby",
-  height: 5,
-  favoriteColor: "Purple",
-  },
-
-  var person =
-   {    name: "Mary",
-    height: 3,
-    favoriteColor: "Orange",}
-
-
-function week2 () {
-  var person = "istallerthan5feet"
-  console.log(person);
+else{
+    console.log('Allowed to watch movie')
 }
 
-week2();
-document.body.innerHTML = '<h1> week 2 assignment</h1>';*/
+if(myName == 'B') {
+    console.log('Allowed to watch movie')
+}
+else{
+    console.log('Not allowed to watch movie')
+}
 
-/*const numbers = new Array (1, 2, 3, 4, 5)
+if(myName == 'B' + myAge < 12) {
+    console.log("Allowed into the movie")
+}
+else{
+    console.log('Not allowed to watch movie')
+}
 
-console.log(numbers); 
+/*This is the 3rd part of the assignment 
+Write an if/else if/else statement that prints "strict" if 1 strictly equals "1", prints "loose" or "abstract" if 1 equals "1" without type checking, and prints "not equal at all" if it doesn't print the other stuff.
+Write an if statement that prints "yes" if 1 is less than or equal to 2 AND (&&) 2 is equal to 4.
+*/
 
-const fruits = new Array ('apples', 'pears', 'bananas', 'oranges', 'pineapples', 'strawberries', 10, true)
-fruits[3] = 'grapes';
+var myValue = 1
+var myValue2 = 2
 
-console.log(fruits)*/
+if(myValue === 1){
+    console.log('strict')
+} 
+else if (myValue == 1){
+    console/log('loose')
+}
+else{
+    console.log("not equal at all")
+}
+
+var myValue = 1
+var myValue2 = 2
+var myValue3 = 4
+
+if(myValue == myValue2) {
+    console.log('yes')
+}
+else(
+    console.log('no')
+)
+
+if(myValue2 == myValue3){
+    console.log('yes')
+}
+else(
+    console.log('no')
+)

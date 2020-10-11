@@ -1,5 +1,14 @@
-const whatever = document.getElementById("whatever")
-console.log(whatever)
-console.dir(whatever)
+const africa = document.getElementById("africa")
+console.log(africa)
+africa.innerHTML = "Welcome to my JS site"
 
-whatever.innerHTML = "Red riding hood"
+const lemonade = document.getElementById('lemonade')
+console.log(lemonade)
+lemonade.innerHTML = "All of this was created with Javascript"
+
+var newList = document.createElement("li");                
+var myList = document.createTextNode("myList");        
+myList.appendChild(newList);                             
+document.getElementById("myList").appendChild(newList);
+
+
