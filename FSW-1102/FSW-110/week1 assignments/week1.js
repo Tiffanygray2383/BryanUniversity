@@ -1,1 +1,1 @@
-console.log (document)
+console.log (week1.js)
